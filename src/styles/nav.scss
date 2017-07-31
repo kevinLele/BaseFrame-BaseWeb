@@ -1,0 +1,39 @@
+@import "base.css";
+
+.nav {
+  background: #32404E;
+  font-family: 'iconfont';
+  ul {
+    width: 100%;
+    background: #32404e;
+    li {
+      font-size: 15px;
+      color: #adb3b8;
+      overflow: hidden;
+      i {
+        font-size: 14pt;
+        font-style: normal;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 5px;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+}
+
+.hot {
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  float: left;
+}
+
+.nav-active {
+  background: #475360;
+  .hot {
+    background: #35baf6;
+  }
+}
+

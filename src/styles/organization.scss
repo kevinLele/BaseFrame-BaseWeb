@@ -1,0 +1,37 @@
+@import "base.css";
+.organization {
+
+}
+.organization-main{
+    height: calc(100% - 49px);
+    padding: 20px;
+    overflow: hidden;
+    .organization-left {
+        width: 16%;
+        float: left;
+        height: 100%;
+    }
+    .organization-right {
+        width: 82%;
+        height: 100%;
+        float: left;
+        margin-left: 2%;
+        font-family: 'iconfont';
+        position: relative;
+             
+        .organization-list{
+            height: 91%;
+            .table-com {                           
+                li:last-child {
+                    width: 19%;
+                }
+            }         
+            
+        }       
+        
+    }
+}
+
+
+
+

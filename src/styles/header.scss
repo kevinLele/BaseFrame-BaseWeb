@@ -1,0 +1,58 @@
+@import "base.css";
+
+    .header{
+        font-family: 'iconfont';
+        width: 100%;
+        height: 64px;       
+        background: #fff;
+        position: relative;       
+        .wrapper{
+            height: 100%;
+            .header-logo{
+                width: 15vw;
+                background: #35baf6;
+                font-size: 20px;
+                color: #fff;
+                line-height: 64px;
+                height: 100%;
+                float: left;
+                div{
+                    width: 100%;
+                    min-width: 120px;
+                    height: 100%;
+                    overflow: hidden;
+                    span{ float: left;}
+                    span:first-child{                   
+                        margin-left: 14px;
+                        margin-right: 22px;
+                        vertical-align: bottom;
+                        font-size: 24px;
+                    } 
+
+                }
+            }
+            .header-handle{
+                border-bottom: 1px solid #d5d5d5;
+                width: 85vw;
+                height: 100%;
+                line-height: 64px;
+                position: absolute;
+                left: 15%;
+                top: 0;
+                .left{
+                    float: left;
+                    margin-left: 15px;
+                    font-size: 18px;
+                    span:hover{cursor:pointer;}
+                }
+                .right{
+                    float: right;
+                    span{margin-right: 37px;color: #939393;}
+                    :hover{cursor:pointer;}
+                    font-size:20px;
+                }
+            }
+        }
+        
+        
+    }
