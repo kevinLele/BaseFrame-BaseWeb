@@ -101,7 +101,6 @@ new Vue().$http.get("./restful/capermission/getCurrentUserPermissions").then(
     new Vue({
       el: '#app',
       router,
-      store,
       render: h => h(App),
       data: {
         Bus: new Vue()
